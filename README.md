@@ -1,11 +1,13 @@
 Express counter example
 =======================
 
+https://github.com/Thinkful-Ed/hyper-dev-counter-example
+
 Simple app to demo Express for Thinkful's Node course.
 
 The backend of this app uses ES6 language features. HyperDev currently runs on a build of Node 4.4.3 (at time of writing, see package.json in this app to confirm), which does not support ES6 out of the box.
 
-To enable ES6, we've activated [harmony mode]() in our start script inside of package.json:
+To enable ES6, we've activated [harmony mode](https://nodejs.org/en/docs/es6/) in our start script inside of package.json:
 
 ```json
 "scripts": {
