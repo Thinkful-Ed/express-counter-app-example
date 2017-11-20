@@ -1,6 +1,10 @@
 'use strict';
 
+// `require` is used to import third party libraries
+// here we use it to import express
 const express = require('express');
+// calling `express()` creates a new app, which we set to 
+// the constant `app`
 const app = express();
 
 // note that in memory JS is NOT normally
