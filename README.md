@@ -1,7 +1,7 @@
 Express counter example
 =======================
 
-[GitHub]https://github.com/Thinkful-Ed/hyper-dev-counter-example
+[GitHub](https://github.com/Thinkful-Ed/hyper-dev-counter-example)
 
 [Glitch](https://glitch.com/edit/#!/express-counter-app-example)
 
