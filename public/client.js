@@ -1,15 +1,16 @@
 // client-side js
+const display = document.querySelector('span');
+
 function getCount() {
-  $.get('/the-count', function(data) {
-    $('.js-current-count').text(data.count);
+  fetch('/the-count').then(function(response) {
+    return response.json()
+  }).then(function(data) {
+    display.textContent = data.count;
   });
 }
 
-$(function() {
-  getCount();
-  $('form').submit(function(event) {
-    event.preventDefault();
-    getCount();
-  });
+getCount();
 
+document.querySelector("button").addEventListener("click", function(event) {
+  getCount;
 });
